@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-Lister</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>To-Do-Lister: mark the task!</h1>
+    <div class="add-task">
+        <input type="text" id="task-name" placeholder="Task name">
+        <input type="text" id="task-desc" placeholder="Description of the task">
+        <input type="date" id="task-deadline">
+        <button onclick="addTask()">Add the task</button>
+    </div>
+    <div id="tasks"></div>
+</div>
+
+</body>
+
+</html>
